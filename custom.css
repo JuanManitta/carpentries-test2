@@ -1,0 +1,17 @@
+/* Ocultar el logo original */
+.large-logo img {
+    visibility: hidden;
+    width: 0;
+}
+
+/* Poner tu logo como imagen de fondo */
+.large-logo{
+    background-image: url("/episodes/fig/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+    /* Ajusta este ancho según el tamaño de tu logo */
+    width: 150px; 
+    display: block;
+    height: 50px; /* Ajusta a la altura de la barra */
+}
